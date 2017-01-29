@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About DevWorks
+title: About
 permalink: /about/
 ---
 
