@@ -1,0 +1,114 @@
+$white: #FFFFFF;
+$devblue: #356696;
+
+
+h1, h2, h3{
+  color: $devblue;
+}
+
+.btn-dwsh{
+   color: $devblue;
+   background-color: $white;
+   border-width: 2px;
+   border-color: $devblue;
+ }
+
+.btn-dwfl{
+  color: $white;
+  background-color: $devblue;
+  border-color: $devblue;
+}
+
+.home-banner{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/4CPD0e9.jpg");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+
+    .navbar-brand{
+      color: $white;
+      font-size: 25px;
+    }
+
+    li{
+      a, a:hover{
+        color: $white;
+        font-size: 25px;
+      }
+    }
+
+    .navbar-brand{
+      display: none;
+    }
+
+  }
+
+  #dw-logo{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+.rg-navbar{
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+    color: $devblue;
+
+    .navbar-brand{
+      color: $devblue;
+      font-size: 25px;
+    }
+
+    li{
+      a, a:hover{
+        color: $devblue;
+        font-size: 25px;
+      }
+    }
+
+    .navbar-brand{
+      width: 200px;
+      height: auto;
+    }
+
+  }
+}
+
+.mission-badge{
+  padding-bottom: 25px;
+}
+
+.home-icon{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: $devblue;
+  margin:auto;
+
+  .glyphicon{
+    padding-top: 25%;
+    color: $white;
+    font-size: 100px;
+  }
+}
+
+.home-mission{
+  padding-top: 75px;
+  padding-bottom: 100px;
+
+  a:hover{
+    color: $white;
+  }
+}
+
+.team-grid{
+  img{
+    margin:auto;
+  }
+  padding-bottom: 50px;
+}

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{ page.title | escape }}</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    {{ content }}
+  </div>
+</div>
+
+
+{% if page.title == "Team" %}
+<div class="row">
+  {% for member in site.categories.Member | sort: 'title' %}
+    <div class="col-xs-6 col-sm-4 text-center team-grid">
+      <!--<h2>-->
+        <!--<a class="post-link" href="{{ member.url | relative_url }}">{{ member.title | escape }}</a>-->
+      <!--</h2>-->
+      <img class="img-responsive img-rounded" src="../images/team/{{member.img}}" alt="{{member.title | escape}}">
+      <h3>{{ member.title | escape }}</h3>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
