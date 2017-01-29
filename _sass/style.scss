@@ -53,28 +53,30 @@ h1, h2, h3{
   }
 }
 
-
-.navbar-default{
-  background-color: transparent;
-  border-color: transparent;
-
-  .navbar-brand{
+.rg-navbar{
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
     color: $devblue;
-    font-size: 25px;
-  }
 
-  li{
-    a, a:hover{
+    .navbar-brand{
       color: $devblue;
       font-size: 25px;
     }
-  }
 
-  .navbar-brand{
-    width: 200px;
-    height: auto;
-  }
+    li{
+      a, a:hover{
+        color: $devblue;
+        font-size: 25px;
+      }
+    }
 
+    .navbar-brand{
+      width: 200px;
+      height: auto;
+    }
+
+  }
 }
 
 .mission-badge{
