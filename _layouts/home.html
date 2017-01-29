@@ -1,25 +1,52 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  {% include head.html %}
+<body>
+<div class="home-banner">
+  <div class="container">
+    {% include header.html %}
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <img id="dw-logo" src="{{ "/images/DevWorks-NoBackground-white.png" | relative_url }}">
+      </div>
+    </div>
+  </div>
 </div>
+<div class="container">
+  <div class="row home-mission">
+    <div class="col-xs-12 text-center">
+      <h1>DevWorks is an innovation hub with the mission to empower Halifax STEM students with the experience and tools to develop, innovate and compete on the global stage.</h1>
+      <br/>
+      <p>
+        <a type="button" class="btn btn-lg btn-dwfl" href="www.dal.ca">About DevWorks</a>
+      </p>
+    </div>
+  </div>
+
+
+    <div class="row text-center">
+        <div class="col-xs-12 col-sm-4 mission-badge">
+          <p class="home-icon"><span class="glyphicon glyphicon-education" aria-hidden="true"></span></p>
+          <h2>Student-Driven</h2>
+          <h4>For students, by students!</h4>
+        </div>
+        <div class="col-xs-12 col-sm-4 mission-badge">
+          <p class="home-icon"><span class="glyphicon glyphicon-console" aria-hidden="true"></span></p>
+          <h2>Beyond the Classroom</h2>
+          <h4>Build awesome projects.</h4>
+        </div>
+        <div class="col-xs-12 col-sm-4 mission-badge">
+          <p class="home-icon"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span></p>
+          <h2>Innovate</h2>
+          <h4>Work with a goal-driven team. </h4>
+        </div>
+      </div>
+</div>
+{% include footer.html %}
+
+
+
+</body>
+
+</html>
