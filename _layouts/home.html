@@ -1,25 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  {% include head.html %}
+<body>
+<div class="home-banner">
+  <div class="container">
+    {% include header.html %}
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <img id="dw-logo" src="{{ "/images/DevWorks-NoBackground-white.png" | relative_url }}">
+      </div>
+    </div>
+  </div>
 </div>
+<div>
+  {% include footer.html %}
+</div>
+
+
+
+</body>
+
+</html>
