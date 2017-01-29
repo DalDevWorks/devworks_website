@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Robet Tracey"
+title:  "Robert Tracey"
 date:   2017-01-29 11:39:13 -0400
 img:    "rob_t.jpg"
 categories: Member
