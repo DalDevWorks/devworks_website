@@ -13,3 +13,16 @@ layout: default
         {{ content }}
     </div>
 </div>
+
+<div class="row">
+    {% for news in site.categories.News %}
+    <div class="col-xs-12 col-sm-6 text-center team-grid">
+        <a class="post-link" href="{{ news.url | relative_url }}">
+            <img class="img-responsive img-rounded" src="../images/news/{{news.img}}" alt="{{news.title | escape}}">
+        </a>
+        <h2>
+        <a class="post-link" href="{{ news.url | relative_url }}">{{ news.title | escape }}</a>
+        </h2>
+    </div>
+    {% endfor %}
+</div>
