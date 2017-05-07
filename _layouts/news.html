@@ -21,8 +21,9 @@ layout: default
             <img class="img-responsive img-rounded" src="../images/news/{{news.img}}" alt="{{news.title | escape}}">
         </a>
         <h2>
-        <a class="post-link" href="{{ news.url | relative_url }}">{{ news.title | escape }}</a>
+            <a class="post-link" href="{{ news.url | relative_url }}">{{ news.title | escape }}</a>
         </h2>
+        <p class="post-meta"><time datetime="{{ news.date | date_to_xmlschema }}" itemprop="datePublished">{{ news.date | date: "%b %-d, %Y" }}</time>
     </div>
     {% endfor %}
 </div>
