@@ -13,18 +13,3 @@ layout: default
     {{ content }}
   </div>
 </div>
-
-
-{% if page.title == "Team" %}
-<div class="row">
-  {% for member in site.categories.Member %}
-    <div class="col-xs-6 col-sm-4 text-center team-grid">
-      <!--<h2>-->
-        <!--<a class="post-link" href="{{ member.url | relative_url }}">{{ member.title | escape }}</a>-->
-      <!--</h2>-->
-      <img class="img-responsive img-rounded" src="../images/team/{{member.img}}" alt="{{member.title | escape}}">
-      <h3>{{ member.title | escape }}</h3>
-    </div>
-  {% endfor %}
-</div>
-{% endif %}
