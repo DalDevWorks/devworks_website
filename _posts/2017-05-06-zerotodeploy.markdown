@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Zero to Deploy: The Basics Workshop"
-date:   2017-05-06 11:39:13 -0400
+date:   2017-05-08 11:39:13 -0400
 img:    "zero_to_deploy.jpg"
 categories: News
 ---
@@ -16,7 +16,7 @@ GitHub and Airbnb. We will dive into the concepts such as Model-View-Controller(
 version control. We’ll learn these concepts by applying them during the workshop so you can see how it works first-hand.
 Indeed, by then end of the workshop you will have a fully-functioning and hosted web application. Here are the tools
 we’re going to use to achieve this: Ruby on Rails, GitHub and Heroku. The workshop is geared for first and second year
-BCS/BACS students but we encourage anyone who want to get an overview of modern web application development to join us.
+BCS/BACS students but we encourage anyone who wants to get an overview of modern web application development to join us.
 
 To take full advantage of our time together, we recommend a small amount of preparation:
 - Install Ruby on Rails: [step-by-step guide](http://installrails.com/)
@@ -25,7 +25,6 @@ To take full advantage of our time together, we recommend a small amount of prep
 - [Optional] We recommend [RubyMine](https://www.jetbrains.com/ruby/) for Rails development which you can get for free
 with an [educational license](https://www.jetbrains.com/student/).
 
-Our team will be available before the workshop to help setting up your environment. Further, we’ll post resources and
-tutorials so you can keep developing your skills after the workshop.
+Our team will be available before the workshop to help setting up your environment. After the workshop, we’ll post resources and tutorials so you can keep developing your skills after the workshop.
 
 See you at ShiftKey!
