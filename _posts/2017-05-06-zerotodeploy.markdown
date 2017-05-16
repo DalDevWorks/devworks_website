@@ -11,7 +11,7 @@ categories: News
 Looking for tooling to bring your app to reality? Want to develop skills over the summer to prepare for Co-op? Learn
 the basics of web applications? We got you covered!
 
-Zero to Deploy: The Basics will introduce some of the tools used by some of the biggest start-ups such Twitter, Shopify,
+Zero to Deploy: The Basics will introduce some of the tools used by some of the biggest start-ups such as Twitter, Shopify,
 GitHub and Airbnb. We will dive into the concepts such as Model-View-Controller(MVC), continuous integration (CI) and
 version control. We’ll learn these concepts by applying them during the workshop so you can see how it works first-hand.
 Indeed, by then end of the workshop you will have a fully-functioning and hosted web application. Here are the tools
